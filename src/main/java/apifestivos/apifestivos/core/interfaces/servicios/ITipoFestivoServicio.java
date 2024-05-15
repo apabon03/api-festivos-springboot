@@ -1,8 +1,11 @@
 package apifestivos.apifestivos.core.interfaces.servicios;
 
-import apifestivos.apifestivos.core.entidades.TipoFestivo;
+import org.springframework.stereotype.Service;
 
+
+
+@Service
 public interface ITipoFestivoServicio {
 
-    public TipoFestivo esDiaFestivo(String fecha);
+    
 }

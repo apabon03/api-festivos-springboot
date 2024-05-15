@@ -1,5 +1,7 @@
 package apifestivos.apifestivos.core.entidades;
 
+
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -93,7 +95,6 @@ public class TablaFestivos {
         this.tipoFestivo = tipoFestivo;
     }
 
-   
 }
 
 
